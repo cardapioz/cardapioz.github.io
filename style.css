@@ -1,6 +1,70 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Wolf In The City';
+    src: url('materialize/fonts/wolf/wolf.ttf') format('truetype');
+}
+
 *{
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.Aligner {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.Aligner-item {
+    max-width: 100% !important;
+}
+
+.Aligner-item--top {
+    align-self: flex-start !important;
+}
+
+.Aligner-item--bottom {
+    align-self: flex-end !important;
+}
+
+.equipe{
+    margin: 10px 0;
+}
+.avatar{
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    -webkit-filter: grayscale(100%);
+}
+.equipe:hover .avatar{
+    -webkit-filter:  grayscale(0%);
+    transition: .3s;
+}
+
+form button{
+    width: 200px !important;
+}
+
+.media-social{
+    width: 60px;
+    height: 60px;
+}
+.height{
+    height: 150px;
+}
+
+.about{
+    text-align: justify;
+}
+.logo{
+    font-family: 'Wolf In The City';
+    font-size: 11em !important;
+    color: #c31c1c;
+    text-shadow: rgba(255, 255, 255, 0.15) 0px 0px 5px;
+}
+
+#u_0_2{
+    width: 256px !important;
+    height: 56px !important;
 }

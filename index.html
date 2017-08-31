@@ -1,26 +1,204 @@
-<!DOCTYPE html>
+<!--
+Sabe o que é melhor de tudo isso?
+Isso não ser um site em wordpress!
+-->
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
-    <title>Cardapioz - Em Breve</title>
-    <link rel="stylesheet" href="css/uikit.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/jquery.min.js"></script>
-    <script src="js/uikit.min.js"></script>
-    <script src="js/uikit-icons.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-  </head>
-  <body>
-    <div class="uk-height-large uk-background-cover uk-overflow-hidden uk-light uk-flex" style="height:100vh; background-image: url('img/food-pot-kitchen-cooking.jpg');">
-    <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
-
-        <h1 class="uk-text-bold logo">Cardapioz</h1>
-        <p class="text" >Em breve sua melhor experiência em pedidos.</p>
-        <p uk-margin>
-          <a href='https://goo.gl/forms/HzYkFvyEDSU9nUn03' target="_blank" class="uk-button uk-button-default">cadastre sua empresa</a>
-        </p>
-        <img width="100px" height="120px" title='uma empresa giraffe' src="img/giraffinha.png" alt="Powered by Giraffe">
+    <title>Cardapioz</title>
+    <meta name="theme-color" content="#c31c1c" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="materialize/sass/materialize.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="style.css" media="screen,projection" />
+    <meta property="og:url" content="http://www.cardapioz.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Cardapioz" />
+    <meta property="og:description" content="Cardapioz - A sua melhor experiência em pedidos online!" />
+    <meta property="og:image" content="http://www.cardapioz.com/img/logo.png" />
+</head>
+<body>
+    <div class="parallax-container Aligner" style="height: 100vh;">
+        <div class="" style="display: block; height:250px;">
+            <h1 class="logo">Cardapioz</h1>
+            <div id="fb-root Aligner"></div>
+            <div class="fb-like" style="width: 160px !important; " data-href="https://www.facebook.com/cardapioz" style="margin: auto; position: relative;"
+            data-layout="button" data-action="like" data-size="large" data-show-faces="false" data-share="false"></div>
+        </div>
+        <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.9&appId=775696215943093";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <div class="parallax">
+            <img class="paralax" src="img/capa.jpeg" alt="">
+        </div>
     </div>
-</div>
-  </body>
-</html>
+    <div class="section white">
+        <div class="row container">
+            <h4 class="header center-align">Sobre</h4>
+            <p class="grey-text text-darken-3 lighten-3 flow-text about" >
+                Cardapioz é um Delivery online. Seu principal objetivo é entregar aos usuários, uma plataforma moderna e de fácil utilização,
+                tanto para quem trabalha com o mercado gastronômico e para quem é consumidor deste mercado. Criando assim a melhor experiencia
+                em pedidos online para os dois universos. Então chega de queimar o arroz e almoçar macarrão instanêo, Cardapioz leva até você a sua melhor opção!
+            </p>
+        </div>
+    </div>
+    <div class="section white">
+        <div class="row container">
+            <h4 class="header center-align center-align">Como funciona?</h4>
+            <div class="col s12 m4 l4 center-align">
+                <i class="large material-icons">local_pizza</i>
+                <h5 class="grey-text text-darken-3 lighten-3">Reunimos restaurantes</h5>
+                <p class="grey-text text-darken-3 lighten-3">
+                    Os melhores restaurantes da sua região, distribuidos em um enorme cardápio
+                </p>
+            </div>
+            <div class="col s12 m4 l4 center-align">
+                <i class="large material-icons">phonelink</i>
+                <h5 class="grey-text text-darken-3 lighten-3">Conectamos clientes</h5>
+                <p class="grey-text text-darken-3 lighten-3">
+                    Entregamos o cardápio em mãos de usuários que estão em casa famintos
+                </p>
+            </div>
+            <div class="col s12 m4 l4 center-align">
+                <i class="large material-icons">tag_faces</i>
+                <h5 class="grey-text text-darken-3 lighten-3">Fazemos pessoas felizes</h5>
+                <p class="grey-text text-darken-3 lighten-3">
+                    Transformamos isso na melhor experiência em pedir comida online para o seu cliente!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="center-align Aligner container" style="height:100%;">
+            <h1 class="white-text flow-text" style="font-weight: 900;">NÃO ENTREGUE APENAS COMIDA, ENTREGUE TAMBÉM SATISFAÇÃO!</h1>
+        </div>
+        <div class="parallax">
+            <img src="img/entrega.jpeg">
+        </div>
+    </div>
+    <div class="section white">
+        <div class="row container">
+            <h4 class="header center-align">Sentiu interesse?</h4>
+            <div class="height">
+                <p class="center-align grey-text text-darken-3 lighten-3 flow-text">
+                    Responda o formulário e participe a da lista de espera
+                </p>
+                <div class="container Aligner" style="height: 90px;">
+                    <a href="https://goo.gl/forms/HzYkFvyEDSU9nUn03" target='_blank' class=" btn btn-large waves-effect red darken-3">cadastre seu restaurante</a>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <h4 class="header center-align">Nos acompanhe</h4>
+            <p class="flow-text center-align">
+                Em todos os lugares nós somos <span class="red-text text-darken-3">@cardapioz</span>
+            </p>
+            <a href="https://facebook.com/cardapioz" target="_blank">
+                <div class="col s4 height Aligner equipe">
+                    <img class="media-social avatar" src="img/facebook.svg" alt="Facebook">
+                </div>
+            </a>
+            <a href="https://instagram.com/cardapioz" target="_blank">
+                <div class="col s4  height Aligner equipe">
+                    <img class="media-social avatar" src="img/instagram.svg" alt="Instagram">
+                </div>
+            </a>
+            <a href="https://twitter.com/cardapioz" target="_blank">
+                <div class="col s4 height Aligner equipe">
+                    <img class="media-social avatar" src="img/twitter.svg" alt="Twitter">
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="divider"></div>
+    <div class="section white">
+        <div class="row container">
+            <h4 class="header center-align">Nossa equipe</h4>
+            <div class="col s6 m4 l4 center-align equipe">
+                <div class="dgrade">
+                    <div class="circle avatar" style="background: url('img/equipe/alan.jpeg') center/cover;">
+                </div>
+                </div>
+                <h5 class="grey-text text-darken-3 lighten-3">Alan Brum</h1>
+                    <p class="grey-text text-darken-3 lighten-3">
+                        Estuda Sistemas de Informação pela Univale, Bolsista Prouni e da iniciação de cientifica.
+                    </p>
+                </div>
+                <div class="col s6 m4 l4 center-align equipe">
+                    <div class="circle avatar" style="background: url('img/equipe/ceo-elves.jpeg') center/cover;">
+                    </div>
+                    <h5 class="grey-text text-darken-3 lighten-3">Elves Mateus</h5>
+                    <p class="grey-text text-darken-3 lighten-3">
+                        Estuda Ciência da Computação pela UFMG. Ama tecnologia, aprender é o que te move.
+                    </p>
+                </div>
+                <div class="col s6 m4 l4 center-align equipe">
+                    <div class="circle avatar" style="background: url('img/equipe/kevin.jpeg') center/cover;">
+                    </div>
+                    <h5 class="grey-text text-darken-3 lighten-3">Kévin Vieira</h5>
+                    <p class="grey-text text-darken-3 lighten-3">
+                        Estuda Sistemas de Informação pela Univale. Apaixonado por JavaScript e pela Web.
+                    </p>
+                </div>
+                <div class="col s6 m4 l4 center-align equipe">
+                    <div class="circle avatar" style="background: url('img/equipe/mauricio.jpeg') center/cover;">
+                    </div>
+                    <h5 class="grey-text text-darken-3 lighten-3">Maurício Eugênio</h5>
+                    <p class="grey-text text-darken-3 lighten-3">
+                        Estuda Psicologia pela Univale
+                        Bolsista prouni. Amante de café e tecnologias open-source.
+                    </p>
+                </div>
+                <div class="col s6 m4 l4 center-align equipe">
+                    <div class="circle avatar" style="background: url('img/equipe/wemerson.jpeg') center/cover;">
+                    </div>
+                    <h5 class="grey-text text-darken-3 lighten-3">Wemerson Ferreira</h5>
+                    <p class="grey-text text-darken-3 lighten-3">
+                        Estuda Sistemas de Informação pela Univale. Bolsista do prouni e membro da iniciação de cientifica
+                    </p>
+                </div>
+                <div class="col s6 m4 l4 center-align equipe">
+                    <div class="circle avatar" style="background: url('img/equipe/yuri.jpeg') center/cover;">
+                    </div>
+                    <h5 class="grey-text text-darken-3 lighten-3">Yuri Coelho</h5>
+                    <p class="grey-text text-darken-3 lighten-3">
+                        Estuda Sistemas de Informação pela Univale. Bolsista pelo prouni, ama lógica e matemática.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <footer class="page-footer grey darken-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text logo" style="font-size: 40pt !important;">Cardapioz</h5>
+                        <p class="grey-text text-lighten-4">Sua melhor experiência em pedidos online!</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Links</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="#!">Sobre Cardapioz</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Conheça a Giraffe</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Trabalhe conosco</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2017 Copyright Giraffe.
+                    <a class="grey-text text-lighten-4 right" href="#!"><img width="60px" height="70px" src="img/giraffinha.png"/></a>
+                </div>
+            </div>
+        </footer>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/jq.js"></script>
+
+    </body>
+    </html>
